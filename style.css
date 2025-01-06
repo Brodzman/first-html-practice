@@ -32,9 +32,23 @@ ul {
 
 .overview {
     display: flex;
-    padding: 150px 200px;
+    flex-direction: column;
+    padding: 100px 200px;
     justify-content: space-between;
     align-items: center;
+}
+
+.overview-container {
+    display: flex;
+    padding: 0 200px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-title {
+    font-size: 70px;
+    font-weight: 700;
 }
 
 .button-area {
